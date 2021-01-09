@@ -4,4 +4,8 @@ https://www.youtube.com/watch?v=sN93DRYkCO8
 https://github.com/developedbyed/website-animation-trick
 https://github.com/Annie-Huang/website-animation-trick
 
+https://fonts.google.com/?query=ranchers
+https://fonts.google.com/specimen/Ranchers?query=ranchers&sidebar.open=true&selection.family=Ranchers
 ==============================================================
+
+font-family: 'Ranchers', cursive;
