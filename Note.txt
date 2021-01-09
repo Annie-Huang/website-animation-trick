@@ -6,6 +6,7 @@ https://github.com/Annie-Huang/website-animation-trick
 
 https://fonts.google.com/?query=ranchers
 https://fonts.google.com/specimen/Ranchers?query=ranchers&sidebar.open=true&selection.family=Ranchers
+https://cdnjs.com/libraries/gsap
 ==============================================================
 
 font-family: 'Ranchers', cursive;
