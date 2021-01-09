@@ -77,7 +77,14 @@ nav {
 	font-size: 3rem;
 }
 
-
+.hide {
+	background: black;
+	overflow: hidden; /* this is where is hide all the h1 */
+}
+.hide span {
+	display: inline-block; /* If you don't have the inline-block, transform is not going to work because normal span is inline element */
+	transform: translateY(100%); /* this move the text down but you can still see it */
+}
 
 
 
