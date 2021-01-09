@@ -31,3 +31,42 @@ nav {
 	padding-left: 10rem;
 	font-size: 1.2rem;
 }
+
+#logo {
+	font-family: 'Lobster', cursive;
+	font-weight: lighter;
+	font-size: 2rem;
+}
+
+/* How to put a absoute position in the middle of a page */
+.big-text {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -30%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
