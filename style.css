@@ -38,15 +38,25 @@ nav {
 	font-size: 2rem;
 }
 
-/* How to put a absoute position in the middle of a page */
+/* How to put a absolute position in the middle of a page */
 .big-text {
 	position: absolute;
 	top: 30%;
 	left: 50%;
 	transform: translate(-50%, -30%);
+	font-size: 5rem;
+	font-family: 'Lobster', cursive;
+	color: rgb(61, 61, 61);
 }
 
-
+.intro {
+	background: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 
 
