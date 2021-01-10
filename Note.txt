@@ -7,6 +7,28 @@ https://github.com/Annie-Huang/website-animation-trick
 https://fonts.google.com/?query=ranchers
 https://fonts.google.com/specimen/Ranchers?query=ranchers&sidebar.open=true&selection.family=Ranchers
 https://cdnjs.com/libraries/gsap
+https://greensock.com/get-started/
 ==============================================================
 
 font-family: 'Ranchers', cursive;
+
+
+tl.to(element, {x: 200})
+  .to(element, {y: 200}, "+=1") //1 second after end of timeline (gap)
+  .to(element, {rotation:90}, "-=0.5") //0.5 seconds before end of timeline (overlap)
+  .to(element, {scale: 4}, 6); //at exactly 6 seconds from the beginning of the timeline (absolute)
+
+
+---------------------------------
+
+//create a TimelineMax and make it repeat 3 times with 1 second between iterations
+var tl = gsap.timeline({repeat: 3, repeatDelay: 1});
+
+tl.to(".green", {duration: 1, x: 200})
+  //start 1 second after previous tween ends (gap)
+  .to(".orange", {duration: 1, x: 200, scale: 0.2}, "+=1")
+  //add a label at the end
+  .addLabel("greyAndPink")
+  //start both of these animations at the same time, at the "greyAndPink" label.
+  .to(".grey", {duration: 1, x: 200, scale: 2, y: 20}, "greyAndPink")
+  .to(".pink", {duration: 1, x: 200, rotation: 360}, "greyAndPink");
